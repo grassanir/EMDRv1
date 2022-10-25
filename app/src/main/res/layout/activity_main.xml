@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_vermelho"
+            android:layout_width="20mm"
+            android:layout_height="5mm"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="#E91E63"
+            android:onClick="ligar_red"
+            android:text="RED"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_verde"
+            android:layout_width="20mm"
+            android:layout_height="5mm"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="#4CAF50"
+            android:onClick="ligar_green"
+            android:text="GREEN"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_azul"
+            android:layout_width="20mm"
+            android:layout_height="5mm"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="#3F51B5"
+            android:onClick="ligar_blue"
+            android:textColor="#FFF"
+            android:text="BLUE"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_azul"
+            android:layout_width="20mm"
+            android:layout_height="5mm"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="#3F51B5"
+            android:onClick="aumenta_velocidade"
+            android:textColor="#FFF"
+            android:text="+"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_azul"
+            android:layout_width="20mm"
+            android:layout_height="5mm"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="#3F51B5"
+            android:onClick="diminui_velocidade"
+            android:textColor="#FFF"
+            android:text="-"
+            android:textSize="20dp"
+            />
+
+
+        <Button
+            android:id="@+id/btn_conexao"
+            android:layout_width="40mm"
+            android:layout_height="10mm"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:onClick="conectar_clique"
+            android:text="Conectar..."
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="30mm"
+            android:layout_height="10mm"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/black"
+            android:text="Estímulos" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal"
+            android:layout_width="25mm"
+            android:layout_height="10mm"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:singleLine="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
