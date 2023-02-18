@@ -6,8 +6,8 @@
 
 
 
-# Repositório Projeto TCC UFPR Engenharia Elétrica
+# Repositório Projeto TCC UFPR Engenharia Elétrica - EMDRemote - RAFAEL GRASSANI
 ESTIMULADOR VISUAL PARA TERAPIA EMDR COM CONTROLE POR APLICATIVO ANDROID
 
-Teste
+
 
